@@ -16,7 +16,7 @@ def fetch_linkedin_profiles(full_name, company_name):
     params = {
         "engine": "google",
         "q": search_query,
-        "api_key": SERPAPI_KEY
+        "api_key": 'a876b4ec319bb35b25ad79057c09f613ad5333d58eaaaf1951a3ea8d03cc39d8'
     }
     
     response = requests.get(url, params=params)
